@@ -26,4 +26,9 @@ navText.forEach(a => {
     });
   })
 
+const mainHTML = document.querySelector("html")
+
+mainHTML.addEventListener("keydown", event =>
+  alert("Welcome to the evil bus")
+);
 
