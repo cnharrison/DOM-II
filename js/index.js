@@ -1,8 +1,6 @@
 // Your code goes here
-// change for initial commit
 
 const mainImg = document.querySelector(".intro img");
-console.log(mainImg);
 
 mainImg.addEventListener("mouseover", event =>
   mainImg.setAttribute(
@@ -16,7 +14,6 @@ mainImg.addEventListener("mouseleave", event =>
 );
 
 const navText = document.querySelectorAll(".nav-link");
-console.log(navText);
 
 navText.forEach(a => {
     a.addEventListener("click", event => {
@@ -32,3 +29,6 @@ mainHTML.addEventListener("keydown", event =>
   alert("Welcome to the evil bus")
 );
 
+const mainHeading = document.querySelector("h1")
+
+mainHeading.addEventListener()
